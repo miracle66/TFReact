@@ -1,0 +1,18 @@
+
+
+.center{
+    width:1190px;
+    margin: 10px auto;
+    border-radius: 4px;
+}
+.sider{
+    float: left;
+}
+.content{
+    width: 947px;
+    background-color: white;
+    float: left;
+}
+.clear{
+    clear: both;
+}

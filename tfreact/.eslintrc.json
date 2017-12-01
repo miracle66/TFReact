@@ -1,0 +1,49 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "arrowFunctions": true,
+            "classes": true,
+            "modules": true,
+            "jsx": true,
+            "defaultParams": true
+        },
+        "sourceType": "module"
+    },
+    "parser": "babel-eslint",
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        //关闭额外的分号检查
+        //0:关闭，1:警告，2:异常
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "off",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": "off",
+        "react/prop-types":"off"
+    }
+}
